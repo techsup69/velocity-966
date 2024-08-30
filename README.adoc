@@ -6,7 +6,10 @@
 Sample code for https://issues.apache.org/jira/browse/VELOCITY-966.
 
 == Build
+[source,bash]
+----
 mvn clean package
+----
 
 *JDK 1.8 required.
 
