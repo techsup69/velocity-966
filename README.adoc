@@ -1,0 +1,17 @@
+= VELOCITY-966 sample code
+:icons: font
+:toc: left
+
+== Overview
+Sample code for https://issues.apache.org/jira/browse/VELOCITY-966.
+
+== Build
+mvn clean package
+
+NOTE: JDK 1.8 required.
+
+== Run
+For velocity `1.7` - run class `1_7/src/main/java/com.abc.velocity.example.v966_17.App17`. It is executed successfully.
+
+For velocity `2.3` - run class `2_3/src/main/java/com.abc.velocity.example.v966_23.App23`. It fails to use parsed template second time.
+
